@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Marinia | Clothes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+     <!-- Favicon -->
+
+     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+     <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+     <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+     <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+     <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+     <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+     <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+     <link rel="manifest" href="images/favicon/manifest.json">
+     <meta name="msapplication-TileColor" content="#ffffff">
+     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+     <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header>
+      <div id="upper_nav" class="upper_nav">
+        <div class="wrapper">
+          <div class="d-flex justify-content-around justify-content-sm-between">
+            <h1 class="text-white m-0 text-center text-sm-left d-block d-sm-inline">
+              Designer Clothing USA
+            </h1>
+            <p class="text-white d-none d-sm-inline">Free shiping.Free returns.</p>
+            <a href="" class="text-white d-none d-md-inline">sales@marinia.com</a>
+          </div>
+        </div>
+      </div>
+      <div id="main_nav" class="main_nav">
+        <div class="wrapper">
+          <a href="" class="logolink d-inline-block">
+            <img class="logoimg" src="images/marinia-clothes-logo.png" alt="" />
+          </a>
+          <nav id="mainnav" class="navbar-expand-lg d-inline-block">
+            <button
+              class="navbar-toggler p-0"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              id="maincolbutt"
+            >
+            <img src="images/marinia-clothes-menu.svg" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav list-unstyled">
+                <li class="nav-item dropparent">
+                  <a class="nav-link" href="">
+                    <h2>New look</h2>
+                  </a>
+                  <button
+                  class="appeardrop navbar-toggler d-block d-lg-none position-absolute py-0 border-0"
+                  data-toggle="collapse"
+                  data-target="#dropmenu"
+                >
+                  <img src="images/marinia-clothes-down.svg" alt="" class="dropicon">
+                </button>
+                    <ul id="dropmenu" class="dropdownmenu collapse" >
+                      <li class="nav-item">
+                        <a href="" class="nav-link"><h2>New Shirts</h2></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="" class="nav-link"><h2>New Dresses</h2></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="" class="nav-link"><h2>New Skirts</h2></a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">
+                    <h2>Dresses</h2>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">
+                    <h2>Skirts</h2>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">
+                    <h2>Shirts</h2>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">
+                    <h2>Sale</h2>
+                  </a>
+                </li>
+                <li class="appearli nav-item d-inline-block d-lg-none">
+                  <div class="appear-right-menu">
+                    <ul class="right-menu">
+                      <li class="float-left"><a href="">Sign In</a></li>
+                      <li class="float-left dropparent2">
+                        <a href="">EN</a>
+                        <ul class="langmenu text-center">
+                          <li><a href="">SR</a></li>
+                          <li><a href="">IT</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="float-right">
+            <ul class="right-menu right-origin">
+              <li class="float-left d-none d-sm-block">
+                <a href=""
+                  ><img class="cartimg" src="images/marinia-clothes-shopping-cart.svg" alt=""
+                /></a>
+              </li>
+              <li class="float-left d-none d-lg-block"><a href="">Sign In</a></li>
+              <li class="float-left">
+                <a href=""
+                  ><img src="images/marinia-clothes-search.svg" alt=""
+                /></a>
+              </li>
+              <li class="float-left dropparent2 d-none d-lg-block">
+                <a href="">EN</a>
+                <ul class="langmenu text-center">
+                  <li><a href="">SR</a></li>
+                  <li><a href="">IT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <a href="" class="fixed-cart  d-flex justify-content-center d-sm-none w-100 fixed-bottom">
+      <img src="images/marinia-clothes-shopping-cart.svg" alt="">
+      <p class="text-white d-inline ml-2">Your Bag</p>
+    </a>
+
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="wrapper">
+        <div class="slick-slider-hero position-relative">
+          <div class="slideitem">
+            <img
+              class="d-block img-fluid"
+              src="images/marinia-clothes-slider1.png"
+              alt="Third Slide"
+            />
+            <div class="slidetext">
+              <h4>STANDOUT DRESSES FOR EVERY SRVP</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis id.
+              </p>
+              <p class="sliderprice">340$</p>
+              <a href="" class="slidertextlink">See More</a>
+            </div> 
+          </div>
+              <div class="slideitem">
+                <img
+                  class="d-block img-fluid"
+                  src="images/marinia-clothes-slider2.png"
+                  alt="Third Slide"
+                />
+                <div class="slidetext">
+                  <h4>GREAT DRESS FOR ANY OCCASION</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis id.
+                  </p>
+                  <p class="sliderprice">615$</p>
+                  <a href="" class="slidertextlink">See More</a>
+                </div>
+              </div>
+              <div class="slideitem">
+                  <img
+                  class="d-block img-fluid"
+                  src="images/marinia-clothes-slider1.png"
+                  alt="Third Slide"
+                />
+                <div class="slidetext">
+                  <h4>STANDOUT DRESSES FOR EVERY SRVP</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis id.
+                  </p>
+                  <p class="sliderprice">340$</p>
+                  <a href="" class="slidertextlink">See More</a>
+              </div>
+             </div>
+              <div class="slideitem">
+                <img
+                class="d-block img-fluid"
+                src="images/marinia-clothes-slider2.png"
+                alt="Third Slide"
+              />
+              <div class="slidetext">
+                <h4>GREAT DRESS FOR ANY OCCASION</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis id.
+                  </p>
+                  <p class="sliderprice">615$</p>
+                  <a href="" class="slidertextlink">See More</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category section -->
+    <section class="category py-5">
+      <div class="wrapper">
+        <h2 class="sectiontitle text-center pb-3">CATEGORIES</h2>
+        <div class="d-flex justify-content-around flex-wrap ">
+          <div class="categoryitem pb-4 pb-lg-0">
+            <a href="">
+              <img src="images/marinia-clothes-category1.jpg" alt="" />
+              <img
+                src="images/marinia-clothes-search.svg"
+                alt=""
+                class="magnif-appear"
+              />
+              <p class="pt-2">Dresses</p>
+            </a>
+          </div>
+
+          <div class="categoryitem pb-4 pb-lg-0">
+            <a href="">
+              <img src="images/marinia-clothes-category2.jpg" alt="" />
+              <img
+                src="images/marinia-clothes-search.svg"
+                alt=""
+                class="magnif-appear"
+              />
+              <p class="pt-2">Skirts</p>
+            </a>
+          </div>
+          <div class="categoryitem pb-4 pb-lg-0">
+            <a href="">
+              <img src="images/marinia-clothes-category3.jpg" alt="" />
+              <img
+                src="images/marinia-clothes-search.svg"
+                alt=""
+                class="magnif-appear"
+              />
+              <p class="pt-2">Shirts</p>
+            </a>
+          </div>
+          <div class="categoryitem pb-4 pb-lg-0">
+            <a href="">
+              <img src="images/marinia-clothes-category4.jpg" alt="" />
+              <img
+                src="images/marinia-clothes-search.svg"
+                alt=""
+                class="magnif-appear"
+              />
+              <p class="pt-2">Dresses</p>
+            </a>
+          </div>
+          <div class="categoryitem pb-4 pb-lg-0">
+            <a href="">
+              <img src="images/marinia-clothes-category5.jpg" alt="" />
+              <img
+                src="images/marinia-clothes-search.svg"
+                alt=""
+                class="magnif-appear"
+              />
+              <p class="pt-2">Skirts</p>
+            </a>
+          </div>
+          <div class="categoryitem pb-4 pb-lg-0">
+            <a href="">
+              <img src="images/marinia-clothes-category6.jpg" alt="" />
+              <img
+                src="images/marinia-clothes-search.svg"
+                alt=""
+                class="magnif-appear"
+              />
+              <p class="pt-2">Shirts</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subcategory section -->
+    <section class="subcategory py-5">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-4">
+            <div class="subcategoryitem">
+              <img src="images/marinia-clothes-subcategory1.jpg" alt="" />
+              <h4 class="text-uppercase text-center">Mini Dresses</h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="subcategoryitem">
+              <img src="images/marinia-clothes-subcategory2.jpg" alt="" />
+              <h4 class="text-uppercase text-center">Maxi Dresses</h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <div class="subcategoryitem">
+              <img src="images/marinia-clothes-subcategory3.jpg" alt="" />
+              <h4 class="text-uppercase text-center">Skirts</h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="subcategoryitem">
+              <img src="images/marinia-clothes-subcategory4.jpg" alt="" />
+              <h4 class="text-uppercase text-center">Jackets</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bestsellers Section -->
+
+    <section class="bestsellers py-5">
+      <div class="wrapper">
+          <h2 class="w-100 sectiontitle text-center pb-3">BESTSELLERS</h2>
+        <div class="slick-slider position-relative">
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" class="img-fluid" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+          <div class="slickcard">
+            <img src="images/eugene-chystiakov-1463396-unsplash.jpg" alt="" />
+            <h3 class="py-2">Fancy Shirt</h3>
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+              atque?
+            </p>
+            <a href="" class="slidertextlink">More Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news py-5">
+      <div class="wrapper">
+        <h2 class="sectiontitle text-center pb-3">
+          NEWS
+        </h2>
+        <div class="row">
+          
+          <div class="col-12 col-md-6">
+            <div class="px-3">
+              <div class="newscard mb-4 row">
+                <div class="col-12 col-sm-5 p-0">
+                  <img
+                  class="w-100 p-0"
+                  src="images/marinia-clothes-news1.jpg"
+                  alt=""
+                  />
+                </div>
+                <div class="newscardtext col-12 col-sm-7 d-flex flex-wrap pt-4 px-0">
+                  <div class="paddedtext px-3">
+                    <h5>
+                      New collection presented at the Paris fashion show
+                    </h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Minus laborum in velit fugiat debitis, nostrum ab.
+                    </p>
+                  </div>
+                  <a href="" class="align-self-end mt-4 justify-content-end ml-auto slidertextlink"> Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+              <div class="px-3">
+                <div class="newscard mb-4 row">
+                  <div class="col-12 col-sm-5 p-0">
+                    <img
+                    class="w-100 p-0"
+                    src="images/marinia-clothes-news2.jpg"
+                    alt=""
+                    />
+                  </div>
+                  <div class="newscardtext col-12 col-sm-7 d-flex flex-wrap pt-4 px-0">
+                    <div class="paddedtext px-3">
+                      <h5>
+                        New collection presented at the Paris fashion show
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Minus laborum in velit fugiat debitis, nostrum ab.
+                      </p>
+                    </div>
+                    <a href="" class="align-self-end mt-4 justify-content-end ml-auto slidertextlink"> Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="px-3">
+                  <div class="newscard mb-4 row">
+                    <div class="col-12 col-sm-5 p-0">
+                      <img
+                      class="w-100 p-0"
+                      src="images/marinia-clothes-news3.jpg"
+                      alt=""
+                      />
+                    </div>
+                    <div class="newscardtext col-12 col-sm-7 d-flex flex-wrap pt-4 px-0">
+                      <div class="paddedtext px-3">
+                        <h5>
+                          New collection presented at the Paris fashion show
+                        </h5>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Minus laborum in velit fugiat debitis, nostrum ab.
+                        </p>
+                      </div>
+                      <a href="" class="align-self-end mt-4 justify-content-end ml-auto slidertextlink"> Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="px-3">
+                  <div class="newscard mb-4 row">
+                    <div class="col-12 col-sm-5 p-0">
+                      <img
+                      class="w-100 p-0"
+                      src="images/marinia-clothes-news4.jpg"
+                      alt=""
+                      />
+                    </div>
+                    <div class="newscardtext col-12 col-sm-7 d-flex flex-wrap pt-4 px-0">
+                      <div class="paddedtext px-3">
+                        <h5>
+                          New collection presented at the Paris fashion show
+                        </h5>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Minus laborum in velit fugiat debitis, nostrum ab.
+                        </p>
+                      </div>
+                      <a href="" class="align-self-end mt-4 justify-content-end ml-auto slidertextlink"> Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video py-5">
+      <div class="wrapper">
+        <h2 class="sectiontitle text-center pb-3">MARINIA FASHION VIDEO</h2>
+        <div class="videoholder d-flex justify-content-around">
+          <iframe
+            id="youtubeframe"
+            src="https://www.youtube.com/embed/ZzGJYLY8aTs"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- WannaBe section -->
+    <section class="wannabe">
+      <div class="wrapper">
+        <img src="images/marinia-clothes-dontbe.jpg" alt="" />
+      </div>
+    </section>
+
+    <footer class="py-5">
+      <div class="wrapper">
+        <div class="row text-center text-md-left">
+          <div class="col-12 col-md-4 pb-3 pb-md-0">
+            <h4 class="text-white pb-2">Marinia Designer Clothing</h4>
+            <a href="">Designer Dresses</a>
+            <a href="">Designer Dresses</a>
+            <a href="">Designer Dresses</a>
+            <a href="">Designer Dresses</a>
+          </div>
+          <div class="col-12 col-md-4 pb-3 pb-md-0">
+            <h4 class="text-white pb-2">Marinia Skirts</h4>
+            <a href="">Designer Skirts</a>
+            <a href="">Designer Skirts</a>
+            <a href="">Designer Skirts</a>
+            <a href="">Designer Skirts</a>
+          </div>
+          <div class="col-12 col-md-4">
+            <h4 class="text-white pb-2">Follow us</h4>
+            <ul class="social">
+              <li>
+                <a href=""
+                  ><img src="images/marinia-clothes-instagram.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/marinia-clothes-facebook.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/marinia-clothes-youtube.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/marinia-clothes-google-plus.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/lightslider.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
